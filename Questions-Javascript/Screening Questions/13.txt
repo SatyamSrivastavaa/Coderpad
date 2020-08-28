@@ -1,0 +1,23 @@
+function findPair(arr,number) {
+  
+  var boolean = false;
+  
+  for(var i=0; i<arr.length; i++) {
+    for(var j=0; j<arr.length; j++) {
+      if(arr[i] + arr[j] === number) {
+        if(arr[i] < arr[j]) {
+          boolean = true;
+          console.log('sum: ' + number + ' numbers: ' + a[i] + ', ' + a[j]);
+          continue;
+        }
+      }
+    }
+  }
+  if(boolean === false)
+    console.log('No such pair exists for the number ' + number);
+}
+
+var a = [1,2,3,4,5,6];
+var number = 6;
+
+findPair(a,number);

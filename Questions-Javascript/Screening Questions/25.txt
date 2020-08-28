@@ -1,0 +1,11 @@
+function stairCase(rows) {
+  var s = '';
+  
+  for(let i=1; i<=rows; i++)
+    s = s + ' '.repeat(rows - i) + '#'.repeat(i)  + '\n';
+  
+  return s;
+}
+
+var x = stairCase(3);
+console.log(x);

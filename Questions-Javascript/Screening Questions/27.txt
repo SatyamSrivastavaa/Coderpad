@@ -1,0 +1,22 @@
+function bestGrade(arr){
+  var max = 0;
+  var str = '';
+  
+  for(let i=0; i<arr.length; i++) 
+    if(max<arr[i][1]) {
+      max = arr[i][1];
+      str = arr[i][0];
+    }
+  
+  return [str,max];
+};
+
+var arr = [ 
+  ["Sobby",87], 
+  ["Arush", 37],
+  ["Tony", 24],
+  ["Charles",22]
+]
+
+var x = bestGrade(arr);
+console.log(`${x[0]} got maximum marks that is, ${x[1]}`);

@@ -1,0 +1,27 @@
+1) Given a number n, return all the prime numbers from n to 1
+2) Implement two way binding in Vanilla JS
+3) Given an input box with a placeholder value, change the default behaviour so that the placeholder value won't be deleted completely as soon we start typing in the text box. Instead each character should be replaced at a time from the starting of the placeholder value as we start typing. For example, initially the placeholder value is abc@abc.com and we have to input xyz@xyz.com. Then, it should behave like this:
+	xbc@abc.com -> xyc@abc.com -> xyz@abc.om -> xyz@xbc.com -> xyz@xyc.com -> xyz@xyz.com
+	
+4) - There are List of words along with their ranks in some datasource (in-memory) and you need to implement two methods for a search like the one in google search where  when the user type the character sequence, it should fetch all the words matching the character sequence.
+ For Ex - In datasource you have – HE (rank=10), HEL (rank=20),  HELL (rank=15),  HELLO (rank=100),  HLOE (rank=25),
+And 
+User types H then it should match all words HE, HEL, HELL, HELLO, HLOE
+User types HE then it should match words HE, HEL, HELL, HELLO
+User types HEL then it should match words HEL, HELL, HELLO 
+User types HEL then it should match words HEL, HELL, HELLO 
+User types HL then it should match words HLOE 
+You need to Implement two methods (Functions) :
+1. To insert new keywords into the datasource.
+2. To search the user entered string with all the possible suggestions in decreasing order of their ranks.
+
+5) – Implement Binary Tree Insertion and Search methods.
+
+6) Twitter problem : User can post multiple tweets and hashtag these tweets also. 
+   -- Find maximum top 3/5 Hashtags
+   -- 
+
+7) Trader feed problem :- Developer can get trader feed and he has to design interface for UI to display minimum, maximum and Average price for ticker
+
+8) Amount transfer : Admin can transfer money from User1 to User2 account. Admin can edit transaction amount. Design interface for same. 
+   
